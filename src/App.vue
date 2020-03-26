@@ -2,7 +2,7 @@
   <div id="app">
     <div id="nav">
       <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-        <router-link class="navbar-brand" to="/">Ondiep</router-link>
+        <router-link class="navbar-brand" to="/">Zuilen</router-link>
         <button
           class="navbar-toggler"
           type="button"
