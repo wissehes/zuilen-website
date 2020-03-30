@@ -19,14 +19,37 @@ const routes = [{
             import ( /* webpackChunkName: "about" */ "../views/About.vue")
     },
     {
-        path: "/de-wijk",
+        path: "/inleiding",
+        name: "De Inleiding",
+        component: () =>
+            import ("../views/Inleiding.vue")
+    },
+    {
+        path: "/onderdelen/de-wijk-in-kaart",
         name: "De wijk in kaart gebracht.",
         component: () =>
-            import ("../views/DeWijk.vue")
+            import ("../views/DeWijkInKaart.vue")
+    },
+    {
+        path: "/onderdelen/analyse-van-gegevens",
+        name: "Analyse van de gegevens"
+    },
+    {
+        path: "/onderdelen/probleem-en-oplossing",
+        name: "Probleem keuze en oplossing",
+        component: () =>
+            import ("../views/DeProblemen.vue")
+    },
+    {
+        path: "/conclusie",
+        name: "De conclusie",
+        component: () =>
+            import ("../views/Conclusie.vue")
     }
 ];
 
 const router = new VueRouter({
+    mode: 'history',
     linkExactActiveClass: "active",
     routes
 });

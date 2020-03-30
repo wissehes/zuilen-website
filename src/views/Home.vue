@@ -1,20 +1,23 @@
 <template>
   <div class="header fadeIn">
     <h1>Zuilen</h1>
-    <p>
-      
-    </p>
+    <div class="text">
+      <p>
+        Dit is de website voor het Mens & Maatschappij project door Wisse,
+        Roman, Hidde en Sven uit H2D
+      </p>
+    </div>
   </div>
 </template>
 
-
 <style scoped>
+h1 {
+  padding: 2rem;
+}
 .header {
   margin: auto;
-  border-radius: 10px;
-  padding: 10px 10px;
+  border-radius: 30px;
   margin-top: 4rem;
-  padding-bottom: 4rem;
   width: 50%;
   background: radial-gradient(
     circle,
@@ -23,6 +26,11 @@
   );
   color: white;
   text-align: center;
+}
+.text {
+  padding-bottom: 3rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
 }
 a {
   color: black;
