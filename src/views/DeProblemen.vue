@@ -15,6 +15,7 @@
       <img src="../assets/img/image004.jpg" />
       <img src="../assets/img/image002.jpg" />
       <img src="../assets/img/image003.jpg" />
+      <p>Gemaakt door Roman.</p>
     </div>
   </div>
 </template>

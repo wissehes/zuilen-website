@@ -1393,6 +1393,7 @@
           </tbody>
         </table>
       </div>
+      <p>Gemaakt door Hidde.</p>
     </div>
   </div>
 </template>

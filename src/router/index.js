@@ -25,6 +25,12 @@ const routes = [{
             import ("../views/Inleiding.vue")
     },
     {
+        path: "/onderdelen/orientatie",
+        name: "Oriëntatie Utrecht",
+        component: () =>
+            import ("../views/Orientatie.vue")
+    },
+    {
         path: "/onderdelen/de-wijk-in-kaart",
         name: "De wijk in kaart gebracht.",
         component: () =>
@@ -32,7 +38,9 @@ const routes = [{
     },
     {
         path: "/onderdelen/analyse-van-gegevens",
-        name: "Analyse van de gegevens"
+        name: "Analyse van de gegevens",
+        component: () =>
+            import ("../views/AnalyseVanGegevens.vue")
     },
     {
         path: "/onderdelen/probleem-en-oplossing",

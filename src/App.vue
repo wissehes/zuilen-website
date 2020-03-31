@@ -32,6 +32,10 @@
                 aria-expanded="false"
               >Onderdelen</a>
               <div class="dropdown-menu animate fadeIn" aria-labelledby="navbarDropdownMenuLink">
+                <!--<router-link
+                  class="dropdown-item"
+                  to="/onderdelen/orientatie"
+                >Onderdeel 1: Oriëntatie Utrecht</router-link>-->
                 <router-link
                   class="dropdown-item"
                   to="/onderdelen/de-wijk-in-kaart"
